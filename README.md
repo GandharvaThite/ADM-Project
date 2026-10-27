@@ -90,6 +90,17 @@ A dedicated real-time inference script is included to ensure operational transpa
 - `scipy`
 - `sklearn`
 - `joblib`
+## Final Approach:
+
+Implemented in [`Final_Approach.ipynb`](./Final_Approach.ipynb).
+
+This approach takes Logistic Regression as the final model. It then uses all the XAI techniques mentioned in Approach-3 for it and accordingly the results are tabulated (This is implemented in the [`Approach_3_Final.ipynb`](./Approach_3_Final.ipynb)) and final calssification is performed.
+**Key libraries used:**
+- `pandas`
+- `numpy`
+- `scipy`
+- `sklearn`
+- `joblib`
 
 ## Repository Structure
 
@@ -102,6 +113,7 @@ A dedicated real-time inference script is included to ensure operational transpa
 ├── Approach_4_Final_Training.py  # Training of the dataset for Approach-4
 ├── Approach_4_Final_Evaluation.py # Using evaluation metrics
 ├── Approach_4_Final_Inference.py  # Getting inferences with local XAI
+├── Final_Approach.ipynb        # Final Approach for the project
 └── README.md
 ```
 
